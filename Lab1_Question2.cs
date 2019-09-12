@@ -77,7 +77,7 @@ namespace Calculator
 
             if (choice1 == "d")
             {
-                Console.WriteLine("Enter 1 for addition, 2 for substraction, 3 for multiplication, 4 for division and 5 for modulus:");
+                Console.WriteLine("Enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division and 5 for modulus:");
                 int choice2 = Convert.ToInt32(Console.ReadLine());
                 switch (choice2)
                 {
@@ -93,7 +93,7 @@ namespace Calculator
                         }
                     case 2:
                         {
-                            Console.WriteLine("Enter the numbers for substraction:");
+                            Console.WriteLine("Enter the numbers for subtraction:");
                             double n1 = Convert.ToDouble(Console.ReadLine());
                             double n2 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine(arit.Subtraction(n1, n2));
